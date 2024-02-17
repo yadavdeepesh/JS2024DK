@@ -55,7 +55,7 @@ var sum1 = funExp(25,15);
 
 console.log("the sum of two number " +sum );
 
-console.log("the sum of two number " +sum );
+console.log("the sum of two number     " +sum );
 
 console.log(sum>sum1);
 
