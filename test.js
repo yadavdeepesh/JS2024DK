@@ -47,6 +47,8 @@ q = " " + 0;
 console.log(q);
 console.log(typeof(q));
 */
+
+/*
 console.log("+++++++++++++++++++");
 q = true + true;
 console.log(q);
@@ -69,4 +71,30 @@ console.log(q);
 console.log(typeof(q));
 
 
+console.log("+++++++++++++++++++");
+var iAmUseLess = null;
+console.log(iAmUseLess);
+console.log(typeof(iAmUseLess));
+
+console.log("+++++++++++++++++++");
+var iAmStandBy;
+console.log(iAmStandBy);
+console.log(typeof(iAmStandBy));
+
+*/
+console.log("+++++++++++++++++++");
+// var w;
+// w  = "deepesh" - "yadav";
+// console.log(w);
+// console.log(typeof(w));
+
+
+var phoneNumer = 2345678932;
+var name = "Deepesh";
+console.log(isNaN(phoneNumer));
+console.log(isNaN(name));
+
+if(isNaN(name)){
+    console.log("please enter the valid  number ");
+}
 
