@@ -43,7 +43,7 @@
 
 
 // Anonymous function 
-
+/*
 var funExp = function(a,b){
     return total = a + b;
 }
@@ -60,5 +60,25 @@ console.log("the sum of two number     " +sum );
 console.log(sum>sum1);
 
 console.log(sum1>sum);
+*/
 
+// Default parameters
 
+// default function parameters allow named parameters
+// to be initialized with default values if no values 
+// or underfiend is passed.
+
+function mult(a , b){
+    return (a*b);
+}
+// console.log(mult(5,5));
+console.log(mult(4));// error :: NaN (Not a Number) 
+
+function mult(a = 3, b = 3){
+    return (a*b);
+}
+// console.log(mult(5,5));
+console.log(mult(4));// error :: NaN (Not a Number) 
+// to short the this issue using default parameters
+
+console.log(mult());
