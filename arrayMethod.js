@@ -374,14 +374,28 @@
 
 
 // solution 1 next way ::
-// let arr  = [2,3,4,6,8];
-// // let arrGreater = arr.map((ele)=>{
-// // return ele*2;
-// // }).filter((ele)=> {
-// //     return ele > 10 ;
-// // });
-
+let arr  = [2,3,4,6,8];
+let arrGreater = arr.map((ele)=>{
+return ele*2;
+}).filter((ele)=> {
+    return ele > 10 ;
+}).reduce((accumlator,ele)=>{
+    return accumlator += ele;
+});
+console.log(arrGreater);
 // // using short way
 // let arrGreater = arr.map((ele) => ele*2 ).filter((ele) => ele > 10 ); 
 
 // console.log(arrGreater);
+
+// reduce() method in jS
+
+// let arr  = [2,3,4,6,8];
+// // find out the sum of arr element 
+
+// let sum = arr.reduce((accumlator,curele,index,array) =>{
+//     console.log(accumlator);
+//     return accumlator += curele;
+// });
+
+// console.log("sum ="+sum);
