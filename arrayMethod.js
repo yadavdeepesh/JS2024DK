@@ -337,7 +337,7 @@
 
 // solution 1 ::
 
-// let arr = [25,36,49,64,81]
+// let arr = [25,36,49,64,81];
 // console.log(`original array element :: ${arr})`);
 // let arrSqureRoot = arr.map((element,index,array)=>{
 //     return `${element} :: square root of ${Math.sqrt(element)}`;
@@ -345,20 +345,43 @@
 
 // console.log(arrSqureRoot);
 
+// solution 1 next way ::
+// let arr = [25,36,49,64,81];
+
+// let arrSqu = arr.map((ele)=>{
+//     return Math.sqrt(ele);
+// })
+// using short way
+// let arrSqu = arr.map((ele) => Math.sqrt(ele));
+// console.log(arrSqu);
+
 
 // qus 2 :: mutiply each element by 2 and return only those elementwhich are greater ten 10 ?
 // let arr = [2,3,4,6,8]
 
 // solution 2 :: 
-let arr  = [2,3,4,6,8];
-let resultValue = arr.map((element,index,array) => {
-    if(element*2 > 10){
-        return `element is ${element} and mulitply by 2 =  ${2*element} that is greater than 10 `;
-    }
-    else{
-        return `element is ${element} and mulitply by 2 =  ${2*element} but that is not greater than 10`;
-    }
-});
+// let arr  = [2,3,4,6,8];
+// let resultValue = arr.map((element,index,array) => {
+//     if(element*2 > 10){
+//         return `element is ${element} and mulitply by 2 =  ${2*element} that is greater than 10 `;
+//     }
+//     else{
+//         return `element is ${element} and mulitply by 2 =  ${2*element} but that is not greater than 10`;
+//     }
+// });
 
-console.log(resultValue);
+// console.log(resultValue);
 
+
+// solution 1 next way ::
+// let arr  = [2,3,4,6,8];
+// // let arrGreater = arr.map((ele)=>{
+// // return ele*2;
+// // }).filter((ele)=> {
+// //     return ele > 10 ;
+// // });
+
+// // using short way
+// let arrGreater = arr.map((ele) => ele*2 ).filter((ele) => ele > 10 ); 
+
+// console.log(arrGreater);
