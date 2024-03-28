@@ -64,10 +64,24 @@ The first position is 0, the second is 1, ...
 
 // console.log(result);
 
-let myTweet = "my name is deepesh yadav from nagaland";
+// let myTweet = "my name is deepesh yadav from nagaland";
 
 // console.log(myTweet.slice(-1));
 
 // substring() method in JS
 
+// JavaScript String substr()
 
+// Description
+// The substr() method extracts a part of a string.
+
+// The substr() method begins at a specified position, and returns a specified number of characters.
+
+// The substr() method does not change the original string.
+
+// To extract characters from the end of the string, use a negative start position.
+
+let text = "Hello world!";
+let result = text.substr(0,5);
+
+console.log(result);
